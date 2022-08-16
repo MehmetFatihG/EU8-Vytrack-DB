@@ -69,7 +69,7 @@ public class ContactsStepDefs {
     public void the_user_clicks_the_from_contacts(String email) {
 
         BrowserUtils.waitFor(3);
-        //we have ready method to find email webelement in pom class
+        //we have ready method to find email web element in pom class
         //we just get the email from feature file and pass to that method and click it
         ContactsPage contactsPage = new ContactsPage();
         contactsPage.getContactEmail(email).click();
